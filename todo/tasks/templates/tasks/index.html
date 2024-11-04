@@ -1,0 +1,16 @@
+{% extends 'tasks/base.html' %}
+
+{% block title %}Home - To-Do App{% endblock %}
+
+{% block content %}
+<h1>All Tasks</h1>
+<ul>
+    {% if tasks %}
+        {% for task in tasks %}
+            <li>{{ task.task }} - {% if task.completed %}Completed{% else %}Pending{% endif %}</li>
+        {% endfor %}
+    {% else %}
+        <li>No tasks for today!</li>
+    {% endif %}
+</ul>
+{% endblock %}

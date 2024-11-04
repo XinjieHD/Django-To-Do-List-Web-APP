@@ -1,0 +1,14 @@
+{% extends 'tasks/base.html' %}  <!-- Assuming you have a base.html -->
+
+{% block content %}
+<h1>Today's To-Do List</h1>
+<ul>
+    {% if tasks %}
+        {% for task in tasks %}
+            <li>{{ task.task }} - {% if task.completed %}Completed{% else %}Pending{% endif %}</li>
+        {% endfor %}
+    {% else %}
+        <li>No tasks for today!</li>
+    {% endif %}
+</ul>
+{% endblock %}
