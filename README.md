@@ -5,7 +5,7 @@ This is a simple ToDo List application built with Django that allows users to ad
 ## Features and Results
 
 - **Task Management**: Add, update, and view tasks with their completion status and due dates.
--  e
+  **e**
   
 - **Admin Interface**: Manage ToDo tasks via Django's admin panel.
 - **Date Filtering**: Easily filter tasks by today's date.
