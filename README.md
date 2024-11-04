@@ -8,6 +8,7 @@ This is a simple ToDo List application built with Django that allows users to ad
 ## Features and Results
 
 - **Admin Interface**: Manage ToDo tasks via Django's admin panel.
+  
   You can manage ToDo tasks after you login to Django's admin panel.
   ![Screenshot 2024-11-05 at 02 30 17](https://github.com/user-attachments/assets/3e367ef7-6fc3-43d2-b5f6-c182deaa4c27)
 
