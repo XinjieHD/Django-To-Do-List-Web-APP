@@ -8,3 +8,5 @@ This is a simple ToDo List application built with Django that allows users to ad
 - **Admin Interface**: Manage ToDo tasks via Django's admin panel.
 - **Date Filtering**: Easily filter tasks by today's date.
 
+## Results
+
